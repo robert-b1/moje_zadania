@@ -53,7 +53,7 @@ public class CzyJestAnagramem {
 
     //-----------------------------------------------------------------//
 
-    //następnym przykład z rozwiązaniem wykożystujący stream super krótkie
+    //następny przykład z rozwiązaniem wykożystujący stream super krótkie
     static boolean czyAnagram2(CharSequence slowo1, CharSequence slowo2){
         System.out.println("Czy słowa: " + slowo1 +" i " + slowo2 + " to anagramy");
         return Arrays.equals(slowo1.codePoints().sorted().toArray(),
